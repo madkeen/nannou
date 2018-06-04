@@ -7,9 +7,7 @@ help out!
 # nannou [![Build Status](https://travis-ci.org/nannou-org/nannou.svg?branch=master)](https://travis-ci.org/nannou-org/nannou) [![Crates.io](https://img.shields.io/crates/v/nannou.svg)](https://crates.io/crates/nannou) [![Crates.io](https://img.shields.io/crates/l/nannou.svg)](https://github.com/nannou-org/nannou/blob/master/LICENSE-MIT) [![docs.rs](https://docs.rs/nannou/badge.svg)](https://docs.rs/nannou/)
 
 
-An open-source creative-coding toolkit for Rust.
-
-**nannou** is a collection of code aimed at making it easy for artists to
+**nannou** is an open-source creative-coding toolkit for Rust. This collection of code makes at making it easy for artists to
 express themselves with simple, fast, reliable, portable code.  Whether working
 on a 12-month laser installation or a 5 minute sketch, this framework aims to
 give artists easy access to the tools they need.
@@ -19,6 +17,18 @@ by Processing, OpenFrameworks and Cinder, but for Rust. <sup>Named after
 [this](https://www.youtube.com/watch?v=A-Pkx37kYf4)</sup>
 
 ## Getting Started
+
+Make sure you have the current stable release of Rust(https://www.rust-lang.org/) and Cargo by using ```rustup```.
+
+On Linux and macOS systems, this is done as follows:
+```
+$ curl -sSf https://static.rust-lang.org/rustup.sh | sh
+```
+
+If all goes well, you’ll see the following message appear:
+```
+Rust is installed now. Great! 
+```
 
 See what the code looks like by checking out [the
 examples](https://github.com/nannou-org/nannou/tree/master/examples). *See the
